@@ -3,4 +3,16 @@
 	background-color: #ededed;
 	border:1px solid black;
 }
+.image-box{
+	width:100%;
 
+	/*background-image: url('../img/banner.jpg');
+	height:480px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;*/
+}
+
+img{
+	width:100%;
+}
