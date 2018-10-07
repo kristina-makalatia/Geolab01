@@ -5,12 +5,11 @@
 }
 .image-box{
 	width:100%;
-
-	/*background-image: url('../img/banner.jpg');
+	background-image: url('../img/banner.jpg');
 	height:480px;
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;*/
+	background-position: center center;
 }
 
 img{
