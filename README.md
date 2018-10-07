@@ -8,4 +8,3 @@ Geolab project
 added some information
 
 
-Added boostrap framework
