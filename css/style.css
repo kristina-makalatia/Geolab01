@@ -3,6 +3,7 @@
 	font-family: "ALK Life", sans-serif;
 }
 
+
 /*Banner*/
 .image-box{
 	width:100%;
@@ -33,11 +34,19 @@ img{
 .service p{
 	font-family: 'Lato', sans-serif;
 }
+.service .rounded-circle{
+	width:80px;
+	padding: 15px;
+}
 
 /*Contact-Form*/
 .send-bg{
     color: #fff;
     border: none;
+}
+.form1{
+	width:100%;
+	max-width: 560px;
 }
 
 /*Footer*/
@@ -50,6 +59,36 @@ img{
 }
 
 
+/*slider*/
+.carousel-img{
+	width:100%;
+	height:460px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
 
+
+/*about-section*/
+.text{
+	width: 100%;
+    max-width: 900px;
+    margin:0 auto;  
+    /*Margin:0 auto--davamate rom gavcentrot chveni tekstebi*/
+}
+.clear{
+	clear:both;
+}
+.text-float{
+    max-width: 460px;
+}
+
+
+
+@media(max-width: 770px){
+	.about-us-text{
+		flex-direction: column;
+	}
+}
 
 
