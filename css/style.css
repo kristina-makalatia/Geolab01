@@ -1,18 +1,55 @@
-.service{
-	height:250px;
-	background-color: #ededed;
-	border:1px solid black;
+/*Navigation*/
+  .nav-link{
+	font-family: "ALK Life", sans-serif;
 }
+
+/*Banner*/
 .image-box{
 	width:100%;
-	background-image: url('../img/banner.jpg');
+	/*background-image: url('../img/banner.jpg');
 	height:480px;
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position:center center;
-	
+	position:relative;	*/
+	/*position:relative;*/
 }
-
 img{
 	width:100%;
 }
+.text-on-img{
+	/*position: absolute;*/
+	top:20%;
+	left:45%;
+	font-size:30px;
+    margin: 20px 10px 5px 4px;
+}
+
+/*Grid*/
+.service{
+	background-color: #ededed;
+	border:1px solid black;
+}
+.service p{
+	font-family: 'Lato', sans-serif;
+}
+
+/*Contact-Form*/
+.send-bg{
+    color: #fff;
+    border: none;
+}
+
+/*Footer*/
+.fa-envelope-square{
+	font-size:25px;
+}
+.fa-envelope-square:hover{
+	color:green;
+	transform: rotate(90deg);
+}
+
+
+
+
+
