@@ -89,6 +89,8 @@ img{
 	}
 }
 
+
+
 @media(max-width: 770px){
 	.about-us-text{
 		flex-direction: column;
