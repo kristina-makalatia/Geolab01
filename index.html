@@ -29,13 +29,14 @@
 </head>
 
 <body>
-	<div id = "fb-root" > </ div> <script> ( function ( d , s , id ) { var js , fjs = d . getElementsByTagName ( s ) [ 0 ]; if ( d . getElementById ( id ) ) return ; 
-  js = d . createElement ( s ); js . id = id ; 
- 
-  
-    
-  js . src = 'https://connect.facebook.net/en_RU/sdk.js#xfbml=1&version=v3.1' ; 
-  FJS . parentNode . insertBefore ( js , fjs ); } ( document , 'script' , 'facebook-jssdk' )); </script> 
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 
@@ -115,11 +116,6 @@
 		</div>
 </section>
 
-<div class="facebok container">
-	<div class = "fb-like" data-href = "https://kristina-makalatia.github.io/Geolab01/" data-layout = "standard" data-action = "like" data-size = "small" data-show-faces = "true" data-share = "true" > </div>       
-
-
-	</div>
 
 
   <!-- Using bootsrap-grid -->
@@ -151,7 +147,9 @@
 	</div>
 </section>
 
-
+<div class="container">
+ <div class="fb-like" data-href="https://kristina-makalatia.github.io/Geolab01/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+</div>
 <!-- Using float -->
 <!-- <section class="about-us container bg-info">
 		<div class="float-left text-float">
